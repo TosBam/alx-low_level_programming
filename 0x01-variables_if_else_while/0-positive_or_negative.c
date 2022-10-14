@@ -4,19 +4,11 @@
 
 #include <stdio.h>
 
-
-
 /**
- *
  *  * main - Entry point
  *
- *   *
- *
- *    * Return: Always 0 (Successs/correct)
- *
- *     */
-
-
+ * Return: Always 0 (Successs/correct)
+ */
 
 int main(void)
 
@@ -24,13 +16,9 @@ int main(void)
 
 	int n;
 
-
-
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
-
-
 
 	if (n == 0)
 
@@ -40,8 +28,6 @@ int main(void)
 
 	}
 
-
-
 	else if (n < 0)
 
 	{
@@ -49,8 +35,6 @@ int main(void)
 		printf("%i is negative\n", n);
 
 	}
-
-
 
 	else
 
@@ -60,10 +44,5 @@ int main(void)
 
 	}
 
-
-
 	return (0);
-
-
-
 }
