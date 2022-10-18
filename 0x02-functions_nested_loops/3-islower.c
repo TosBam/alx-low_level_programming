@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ * _islower - print char if it is a lowercase
+ * @c: the character
+ * Return: 1 if char is lowercase, otherwise 0
+ */
+
+
+int _islower(int c)
+{
+	if (c >= 'a' && c <= 'z')
+		Return(1);
+	else
+		Return(0);
+}
