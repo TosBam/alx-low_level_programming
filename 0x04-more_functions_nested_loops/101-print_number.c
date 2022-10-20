@@ -13,6 +13,7 @@ void print_number(int n)
 	unsigned int x, y, count;
 
 	if (n < 0)
+	
 	{
 		_putchar(45);
 		x = -n;
