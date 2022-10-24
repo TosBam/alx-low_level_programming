@@ -9,23 +9,17 @@
 
 int main(void)
 {
-	srand((unsigned int)time(NULL));
-	char pass[13];
-	int i;
+	int sum;
+	char c;
 
-	for (i = 0; i < 4; i++)
+	srand(time(NULL));
+	sum = 0;
+	while (sum <= 2645)
 	{
-		pass[3 * i] = '0' + (rand() % 10);
-		char capLetter = 'A' + (rand() % 26);
-
-		pass[(3 * i) + 1] = capLetter;
-		char letter = 'a' + (rand() % 26);
-
-		pass[(3 * i) + 2] = letter;
+		c = rand() % 128;
+		sum += c;
+		putchar(c);
 	}
-	pass[3 * i] = '\0';
-	printf("generated password : %s\n\n", pass);
-
-	printf("\n\n");
+	putchar(2772 - sum);
 	return (0);
 }
