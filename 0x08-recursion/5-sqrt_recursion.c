@@ -22,7 +22,7 @@ int _sqrt_recursion_wrapper(int n, int min, int max)
 	else if (guess_squared < n)
 		return (_sqrt_recursion_wrapper(n, guess + 1, max));
 	else
-		return (_sqrt_recursion_wrapper(n, min, guess - 1));
+		return (_sqrt_recursion_wrapper(n, guess - 1, min));
 
 }
 
