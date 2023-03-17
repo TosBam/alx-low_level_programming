@@ -1,1 +1,1 @@
-Doubly linked lists in c-programming
+Tasks on doubly linked lists in c-programming
