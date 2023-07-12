@@ -2,7 +2,8 @@
 #include <math.h>
 
 /**
- * jump_list -The function searches for a value in an array of integers using the Jump
+ * jump_list -The function searches for a value in an array of
+ * integers using the Jump
  * search algorithm
  * @list: The input list
  * @size: size of the array given.
